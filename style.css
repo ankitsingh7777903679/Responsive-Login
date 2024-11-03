@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+.section-1{
+    width: 100%;
+    height: 500px;
+    /* background: url(Untitled\ \(4\)_page-0001.jpg) no-repeat center; */
+
+    object-fit: cover;
+    align-items: center;
+   
+
+}
+.container{
+    width: 75%;
+    margin:0px auto;
+    display: flex;
+    flex-direction: row;
+    
+    /* align-items: center; */
+    
+    height: 100%;
+}
+.container img{
+    width: 50%;
+
+}
+
+.login{
+    width: 50%;
+    background-color: #D9D5CC;
+    
+    
+
+}
+
+.login form{
+    /* border: 1px solid red; */
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 10px 5px #E7E6E2;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 25px 80px;
+    height: 80%;
+}
+.login form h1{
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 2px;
+    color: #153D6A;
+}
+.login form p{
+    font-size: 12px;
+    margin-bottom: 15px;
+    color: #CD645A;
+}
+.login form #email,#password{
+    margin-bottom: 15px;
+    padding: 12px 10px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+}
+.login form #forgot{
+    color: blue;
+}
+.login form .btn{
+    margin-bottom: 15px;
+    padding: 12px 10px;
+    border-radius: 25px;
+    background-color: #78BDCE;
+    font-size: 15px;
+    border: none;
+}
+.login form #sign-btn{
+    background-color: #7ABFD0;
+    color: white;
+    border: none;
+}
+.login form #or{
+    text-align: center;
+    font-size: 15px;
+}
+@media(min-width: 901px) and (max-width: 1280px){
+    .container{
+        width: 100%;
+     }
+    .login form{
+        margin:5% 10%;
+         
+         
+     }
+     
+     
+     .login{
+        width: 50%;
+       
+        
+        
+    
+    }
+   
+
+}
+@media(min-width: 700px) and (max-width: 900px){
+    /* .container{
+        width: 100%;
+     }
+    .login form{
+        margin:5% 10%;
+         
+         
+     }
+     
+     
+     .login{
+        width: 50%;
+       
+        
+        
+    
+    } */
+
+    .container{
+        width: 100%;
+     }
+    
+    .login{
+        width: 100%;
+       
+        
+        
+    
+    }
+    .login form{
+       margin:5% 20%;
+        
+        
+    }
+    .container img{
+        display: none;
+    }
+   
+
+}
+@media(max-width: 700px){
+    
+    .container{
+        width: 100%;
+     }
+    
+    .login{
+        width: 100%;
+       
+        
+        
+    
+    }
+    .login form{
+       margin:5% 10%;
+        
+        
+    }
+    .container img{
+        display: none;
+    }
+    
+    
+}
+
+@media(max-width: 400px)
+{
+    .container{
+        width: 100%;
+     }
+    .login form{
+       
+        margin: 5% 10%;
+        
+    }
+    .login{
+        width: 100%;
+       
+        
+        
+    
+    }
+}
